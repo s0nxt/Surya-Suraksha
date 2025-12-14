@@ -46,11 +46,16 @@ const Contact = () => {
           
           <div className="info-item">
             <h4>{t.contact.email}</h4>
-            <p>support@suryasuraksha.com</p>
+            <p>prashantshewalkar483@gmail.com</p>
+          </div>
+
+          <div className="info-item">
+            <h4>{t.contact.phone}</h4>
+            <p>+91 74992 17265</p>
           </div>
           
           <div className="social-links">
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="social-btn whatsapp">
+            <a href="https://wa.me/917499217265" target="_blank" rel="noopener noreferrer" className="social-btn whatsapp">
               WhatsApp
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-btn facebook">
