@@ -1,0 +1,119 @@
+.hero-section {
+  height: 100vh;
+  min-height: 600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Ensure slides don't overflow */
+}
+
+.hero-bg-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  z-index: 1;
+}
+
+.hero-bg-slide.active {
+  opacity: 1;
+}
+
+/* Add a slight zoom animation for currently active slide */
+.hero-bg-slide.active {
+    animation: slowZoom 7s linear alternate infinite;
+}
+
+@keyframes slowZoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.05); }
+}
+
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Make overlay slightly stronger to handle different backgrounds */
+  background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.2) 100%);
+  display: flex;
+  align-items: center;
+  z-index: 2; /* Content above background */
+  pointer-events: none; /* Allow clicks to pass through if needed, but we have content */
+}
+
+.hero-content {
+  max-width: 600px;
+  position: relative;
+  z-index: 10;
+  pointer-events: auto; /* Re-enable clicks for content */
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: var(--color-primary-dark);
+}
+
+.brand-name {
+  display: block;
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.tagline {
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--color-text-main);
+  margin-top: 0.5rem;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: var(--color-text-light);
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.hero-btn {
+  padding: 16px 32px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-bg-slide {
+    background-position: 70% center; /* Shift image if needed */
+  }
+  
+  .hero-overlay {
+    background: rgba(255,255,255,0.85); /* More solid overlay on mobile for readability */
+  }
+
+  .hero-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 1.5rem;
+  }
+  
+  .hero-description {
+      font-size: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}

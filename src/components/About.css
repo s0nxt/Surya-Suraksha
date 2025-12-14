@@ -1,0 +1,109 @@
+.about-section {
+  background-color: var(--color-bg-white);
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-image {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.about-image:hover img {
+  transform: scale(1.05);
+}
+
+.experience-badge {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--color-secondary);
+  padding: 15px 25px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-divider {
+  width: 1px;
+  height: 50px;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.experience-badge .years {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--color-text-main);
+  line-height: 1;
+}
+
+.experience-badge .text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.about-content {
+  padding-right: 2rem;
+}
+
+.about-text {
+  margin-bottom: 1.5rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+}
+
+.about-points {
+  margin-top: 2rem;
+}
+
+.about-points li {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--color-primary-dark);
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-content {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center !important;
+  }
+  
+  .about-points {
+      text-align: left;
+      display: inline-block;
+  }
+}

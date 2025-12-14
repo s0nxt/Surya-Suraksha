@@ -1,0 +1,153 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  padding: 1rem 0;
+}
+
+.header.scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-sm);
+  padding: 0.5rem 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.logo-text {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  display: none; /* Hide text if logo is prominent, or show on mobile? */
+}
+@media (max-width: 480px) {
+    .logo-text { display: none; }
+    .logo img { height: 40px; }
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--color-text-main);
+  transition: color 0.3s;
+}
+
+.nav-links li:hover {
+  color: var(--color-primary);
+}
+
+.header:not(.scrolled) .nav-links li {
+  /* color: white; Make nav white on transparent hero if hero is dark? */
+  /* Assuming hero image is light enough or has overlay. Let's stick to dark text or handle dynamically */
+  color: var(--color-text-main); 
+}
+
+/* Mobile Menu */
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-text-main);
+  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    background-color: #fff;
+    flex-direction: column;
+    padding: 2rem;
+    transition: right 0.3s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-links li {
+      font-size: 1.25rem;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .bar.open:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+  .bar.open:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+  
+  .logo-text {
+      display: block;
+      color: var(--color-primary-dark);
+  }
+}
+
+/* Language Switcher */
+.lang-select {
+  padding: 5px 10px;
+  border-radius: var(--radius-md);
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--color-text-main);
+}
+
+.lang-select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .lang-switcher {
+        margin-top: 1rem;
+    }
+}

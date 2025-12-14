@@ -1,0 +1,130 @@
+.contact-section {
+  background-color: var(--color-bg-light);
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-subtitle {
+  color: var(--color-text-light);
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.info-item {
+  margin-bottom: 2rem;
+}
+
+.info-item h4 {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  color: var(--color-text-light);
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-btn {
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  color: white;
+  font-weight: 500;
+  transition: transform 0.2s;
+  text-align: center;
+  min-width: 100px;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+}
+
+.whatsapp { background-color: #25D366; }
+.facebook { background-color: #1877F2; }
+.instagram { background-color: #E4405F; }
+
+.contact-form-wrapper {
+  background: white;
+  padding: 2.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.error-msg {
+  color: var(--color-error);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.success-msg {
+  color: var(--color-success);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .section-title {
+      text-align: center !important;
+  }
+  
+  .social-links {
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+}
