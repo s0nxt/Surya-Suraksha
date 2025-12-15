@@ -5,6 +5,9 @@ import prod3 from '../assets/images/Gemini_Generated_Image_ybx37vybx37vybx3.png'
 import prod4 from '../assets/images/Gemini_Generated_Image_lnn8q9lnn8q9lnn8.png';
 import prod5 from '../assets/images/Gemini_Generated_Image_inabcfinabcfinab.png';
 import prod6 from '../assets/images/Gemini_Generated_Image_mf16ztmf16ztmf16.png';
+import bulbImg from '../assets/images/bulb.png';
+import fanImg from '../assets/images/fan.png';
+import tubelightImg from '../assets/images/tubelight.png';
 import './Gallery.css';
 
 import { useLanguage } from '../context/LanguageContext';
@@ -69,6 +72,33 @@ const Gallery = () => {
       description: t.gallery.products.kit.desc,
       specs: ["Fire Blanket (1x1m)", "Digital Gas Detector", "Long-neck Lighter"],
       safety: t.gallery.products.kit.safety
+    },
+    { 
+      id: 7, 
+      img: bulbImg, 
+      name: t.gallery.products.bulb.name, 
+      category: t.gallery.products.bulb.cat,
+      description: t.gallery.products.bulb.desc,
+      specs: ["9W / 12W Options", "Cool Daylight (6500K)", "B22 Base"],
+      safety: t.gallery.products.bulb.safety
+    },
+    { 
+      id: 8, 
+      img: fanImg, 
+      name: t.gallery.products.ceilingFan.name, 
+      category: t.gallery.products.ceilingFan.cat,
+      description: t.gallery.products.ceilingFan.desc,
+      specs: ["1200mm Sweep", "High Speed (400 RPM)", "5 Star Rating"],
+      safety: t.gallery.products.ceilingFan.safety
+    },
+    { 
+      id: 9, 
+      img: tubelightImg, 
+      name: t.gallery.products.tubelight.name, 
+      category: t.gallery.products.tubelight.cat,
+      description: t.gallery.products.tubelight.desc,
+      specs: ["20W / 24W", "Polycarbonate Body", "Wide Voltage Range"],
+      safety: t.gallery.products.tubelight.safety
     },
   ];
 

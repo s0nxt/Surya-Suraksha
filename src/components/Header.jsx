@@ -52,6 +52,8 @@ const Header = () => {
                 <option value="en">English</option>
                 <option value="hi">हिंदी</option>
                 <option value="mr">मराठी</option>
+                <option value="ta">தமிழ்</option>
+                <option value="kn">ಕನ್ನಡ</option>
               </select>
             </li>
           </ul>

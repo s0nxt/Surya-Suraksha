@@ -19,7 +19,7 @@
 }
 
 .footer-logo img {
-  height: 40px;
+  height: 60px;
   filter: brightness(0) invert(1); /* Make logo white if applicable, or keep original */
 }
 
