@@ -56,13 +56,13 @@ const Contact = () => {
           
           <div className="social-links">
             <a href="https://wa.me/917499217265" target="_blank" rel="noopener noreferrer" className="social-btn whatsapp">
-              WhatsApp
+              {t.socials.whatsapp}
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-btn facebook">
-              Facebook
+              {t.socials.facebook}
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn instagram">
-              Instagram
+              {t.socials.instagram}
             </a>
           </div>
         </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                 name="name" 
                 value={formData.name} 
                 onChange={handleChange} 
-                placeholder="John Doe"
+                placeholder={t.contact.form.placeholderName}
               />
             </div>
             
@@ -89,7 +89,7 @@ const Contact = () => {
                 name="phone" 
                 value={formData.phone} 
                 onChange={handleChange} 
-                placeholder="+91 98765 43210"
+                placeholder={t.contact.form.placeholderPhone}
               />
             </div>
             
@@ -101,7 +101,7 @@ const Contact = () => {
                 rows="4" 
                 value={formData.message} 
                 onChange={handleChange} 
-                placeholder="How can we help you?"
+                placeholder={t.contact.form.placeholderMessage}
               ></textarea>
             </div>
             

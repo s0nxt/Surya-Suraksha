@@ -12,6 +12,11 @@ export const translations = {
       description: "Experience the pinnacle of safety and durability in your kitchen. Trusted by thousands for a cleaner, healthier, and safer home.",
       cta: "Contact Us Today"
     },
+    socials: {
+      whatsapp: "WhatsApp",
+      facebook: "Facebook",
+      instagram: "Instagram"
+    },
     video: {
       title: "Watch Our Demo",
       subtitle: "See our safety solutions in action."
@@ -71,7 +76,10 @@ export const translations = {
         message: "Message",
         submit: "Send Message",
         success: "Message sent successfully! We'll contact you soon.",
-        error: "Please fill in all fields."
+        error: "Please fill in all fields.",
+        placeholderName: "John Doe",
+        placeholderPhone: "+91 98765 43210",
+        placeholderMessage: "How can we help you?"
       }
     },
     footer: {
@@ -93,6 +101,11 @@ export const translations = {
       tagline: "सुरक्षा होम एप्लायंसेज",
       description: "अपनी रसोई में सुरक्षा और टिकाऊपन के शिखर का अनुभव करें। एक स्वच्छ, स्वस्थ और सुरक्षित घर के लिए हजारों लोगों का भरोसा।",
       cta: "आज ही संपर्क करें"
+    },
+    socials: {
+      whatsapp: "वॉट्सऐप",
+      facebook: "फेसबुक",
+      instagram: "इंस्टाग्राम"
     },
     video: {
       title: "हमारा डेमो देखें",
@@ -153,7 +166,10 @@ export const translations = {
         message: "संदेश",
         submit: "संदेश भेजें",
         success: "संदेश सफलतापूर्वक भेजा गया! हम आपसे जल्द ही संपर्क करेंगे।",
-        error: "कृपया सभी फ़ील्ड भरें।"
+        error: "कृपया सभी फ़ील्ड भरें।",
+        placeholderName: "राहुल कुमार",
+        placeholderPhone: "+91 98765 43210",
+        placeholderMessage: "हम आपकी कैसे मदद कर सकते हैं?"
       }
     },
     footer: {
@@ -175,6 +191,11 @@ export const translations = {
       tagline: "सुरक्षा होम अप्लायंसेज",
       description: "आपल्या स्वयंपाकघरात सुरक्षितता आणि टिकाऊपणाचा अनुभव घ्या. स्वच्छ, निरोगी आणि सुरक्षित घरासाठी हजारो लोकांचा विश्वास.",
       cta: "आजच संपर्क साधा"
+    },
+    socials: {
+      whatsapp: "व्हॉट्सअ‍ॅप",
+      facebook: "फेसबुक",
+      instagram: "इंस्टाग्राम"
     },
     video: {
       title: "आमचा डेमो पहा",
@@ -235,7 +256,10 @@ export const translations = {
         message: "संदेश",
         submit: "संदेश पाठवा",
         success: "संदेश यशस्वीरित्या पाठवला गेला! आम्ही लवकरच आपल्याशी संपर्क साधू.",
-        error: "कृपया सर्व फील्ड भरा."
+        error: "कृपया सर्व फील्ड भरा.",
+        placeholderName: "सुरेश पाटील",
+        placeholderPhone: "+91 98765 43210",
+        placeholderMessage: "आम्ही तुम्हाला कशी मदत करू शकतो?"
       }
     },
     footer: {
@@ -257,6 +281,11 @@ export const translations = {
       tagline: "பாதுகாப்பு வீட்டு உபகரணங்கள்",
       description: "உங்கள் சமையலறையில் பாதுகாப்பின் உச்சத்தை அனுபவியுங்கள். ஆயிரக்கணக்கானோர் நம்பும் ஒரு தூய்மையான, ஆரோக்கியமான மற்றும் பாதுகாப்பான வீட்டிற்காக.",
       cta: "இன்றே தொடர்பு கொள்ளுங்கள்"
+    },
+    socials: {
+      whatsapp: "வாட்ஸ்அப்",
+      facebook: "ஃபேஸ்புக்",
+      instagram: "இன்ஸ்டாகிராம்"
     },
     video: {
       title: "எங்கள் செயல்விளக்கத்தைப் பாருங்கள்",
@@ -317,7 +346,10 @@ export const translations = {
         message: "செய்தி",
         submit: "அனுப்பு",
         success: "செய்தி வெற்றிகரமாக அனுப்பப்பட்டது!",
-        error: "அனைத்து துறைகளையும் நிரப்பவும்."
+        error: "அனைத்து துறைகளையும் நிரப்பவும்.",
+        placeholderName: "செந்தில் குமார்",
+        placeholderPhone: "+91 98765 43210",
+        placeholderMessage: "நாங்கள் உங்களுக்கு எப்படி உதவ முடியும்?"
       }
     },
     footer: {
@@ -339,6 +371,11 @@ export const translations = {
       tagline: "ಸುರಕ್ಷತಾ ಗೃಹೋಪಯೋಗಿ ವಸ್ತುಗಳು",
       description: "ನಿಮ್ಮ ಅಡುಗೆಮನೆಯಲ್ಲಿ ಸುರಕ್ಷತೆ ಮತ್ತು ಬಾಳಿಕೆಯ ಉತ್ತುಂಗವನ್ನು ಅನುಭವಿಸಿ. ಸಾವಿರಾರು ಜನರು ನಂಬಿದ್ದಾರೆ.",
       cta: "ಇಂದೇ ಸಂಪರ್ಕಿಸಿ"
+    },
+    socials: {
+      whatsapp: "ವಾಟ್ಸಾಪ್",
+      facebook: "ಫೇಸ್‌ಬುಕ್",
+      instagram: "ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್"
     },
     video: {
       title: "ನಮ್ಮ ಡೆಮೊ ವೀಕ್ಷಿಸಿ",
@@ -399,7 +436,10 @@ export const translations = {
         message: "ಸಂದೇಶ",
         submit: "ಕಳುಹಿಸಿ",
         success: "ಸಂದೇಶ ಕಳುಹಿಸಲಾಗಿದೆ!",
-        error: "ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ."
+        error: "ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ.",
+        placeholderName: "ರಮೇಶ್ ಕುಮಾರ್",
+        placeholderPhone: "+91 98765 43210",
+        placeholderMessage: "ನಾವು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?"
       }
     },
     footer: {
