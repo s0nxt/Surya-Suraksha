@@ -7,6 +7,7 @@ import Gallery from './components/Gallery';
 import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import VideoSection from './components/VideoSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <VideoSection />
         <Features />
         <Gallery />
         <WhyUs />

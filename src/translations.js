@@ -12,6 +12,10 @@ export const translations = {
       description: "Experience the pinnacle of safety and durability in your kitchen. Trusted by thousands for a cleaner, healthier, and safer home.",
       cta: "Contact Us Today"
     },
+    video: {
+      title: "Watch Our Demo",
+      subtitle: "See our safety solutions in action."
+    },
     about: {
       title: "About Us",
       yearsTrust: "Years of Trust",
@@ -89,6 +93,10 @@ export const translations = {
       tagline: "सुरक्षा होम एप्लायंसेज",
       description: "अपनी रसोई में सुरक्षा और टिकाऊपन के शिखर का अनुभव करें। एक स्वच्छ, स्वस्थ और सुरक्षित घर के लिए हजारों लोगों का भरोसा।",
       cta: "आज ही संपर्क करें"
+    },
+    video: {
+      title: "हमारा डेमो देखें",
+      subtitle: "हमारे सुरक्षा समाधानों को कार्य करते हुए देखें।"
     },
     about: {
       title: "हमारे बारे में",
@@ -168,6 +176,10 @@ export const translations = {
       description: "आपल्या स्वयंपाकघरात सुरक्षितता आणि टिकाऊपणाचा अनुभव घ्या. स्वच्छ, निरोगी आणि सुरक्षित घरासाठी हजारो लोकांचा विश्वास.",
       cta: "आजच संपर्क साधा"
     },
+    video: {
+      title: "आमचा डेमो पहा",
+      subtitle: "आमचे सुरक्षा उपाय प्रत्यक्षात पहा."
+    },
     about: {
       title: "आमच्याबद्दल",
       yearsTrust: "वर्षांचा विश्वास",
@@ -246,6 +258,10 @@ export const translations = {
       description: "உங்கள் சமையலறையில் பாதுகாப்பின் உச்சத்தை அனுபவியுங்கள். ஆயிரக்கணக்கானோர் நம்பும் ஒரு தூய்மையான, ஆரோக்கியமான மற்றும் பாதுகாப்பான வீட்டிற்காக.",
       cta: "இன்றே தொடர்பு கொள்ளுங்கள்"
     },
+    video: {
+      title: "எங்கள் செயல்விளக்கத்தைப் பாருங்கள்",
+      subtitle: "எங்கள் பாதுகாப்பு தீர்வுகளை செயலில் காணுங்கள்."
+    },
     about: {
       title: "எங்களை பற்றி",
       yearsTrust: "ஆண்டுகால நம்பிக்கை",
@@ -323,6 +339,10 @@ export const translations = {
       tagline: "ಸುರಕ್ಷತಾ ಗೃಹೋಪಯೋಗಿ ವಸ್ತುಗಳು",
       description: "ನಿಮ್ಮ ಅಡುಗೆಮನೆಯಲ್ಲಿ ಸುರಕ್ಷತೆ ಮತ್ತು ಬಾಳಿಕೆಯ ಉತ್ತುಂಗವನ್ನು ಅನುಭವಿಸಿ. ಸಾವಿರಾರು ಜನರು ನಂಬಿದ್ದಾರೆ.",
       cta: "ಇಂದೇ ಸಂಪರ್ಕಿಸಿ"
+    },
+    video: {
+      title: "ನಮ್ಮ ಡೆಮೊ ವೀಕ್ಷಿಸಿ",
+      subtitle: "ನಮ್ಮ ಸುರಕ್ಷತಾ ಪರಿಹಾರಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸುವುದನ್ನು ನೋಡಿ."
     },
     about: {
       title: "ನಮ್ಮ ಬಗ್ಗೆ",
