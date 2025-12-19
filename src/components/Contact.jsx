@@ -51,7 +51,7 @@ const Contact = () => {
 
           <div className="info-item">
             <h4>{t.contact.phone}</h4>
-            <p>+91 74992 17265</p>
+            <p>{t.contact.phoneNumber}</p>
           </div>
           
           <div className="social-links">

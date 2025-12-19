@@ -67,6 +67,7 @@ export const translations = {
     contact: {
       title: "Get In Touch",
       subtitle: "Have questions? We're here to help you make your home safer.",
+      phoneNumber: "+91 74992 17265",
       address: "Address",
       addressText: "123 Safety Lane, Industrial Area, New Delhi, India - 1100XX",
       email: "Email",
@@ -157,6 +158,7 @@ export const translations = {
     contact: {
       title: "संपर्क में रहें",
       subtitle: "प्रश्न हैं? हम आपके घर को सुरक्षित बनाने में मदद करने के लिए यहां हैं।",
+      phoneNumber: "+९१ ७४९९२ १७२६५",
       address: "पता",
       addressText: "123 सेफ्टी लेन, इंडस्ट्रियल एरिया, नई दिल्ली, भारत - 1100XX",
       email: "ईमेल",
@@ -168,7 +170,7 @@ export const translations = {
         success: "संदेश सफलतापूर्वक भेजा गया! हम आपसे जल्द ही संपर्क करेंगे।",
         error: "कृपया सभी फ़ील्ड भरें।",
         placeholderName: "राहुल कुमार",
-        placeholderPhone: "+91 98765 43210",
+        placeholderPhone: "+९१ ९८७६५ ४३२१०",
         placeholderMessage: "हम आपकी कैसे मदद कर सकते हैं?"
       }
     },
@@ -247,6 +249,7 @@ export const translations = {
     contact: {
       title: "संपर्कात रहा",
       subtitle: "प्रश्न आहेत? आपले घर सुरक्षित करण्यात मदत करण्यासाठी आम्ही येथे आहोत.",
+      phoneNumber: "+९१ ७४९९२ १७२६५",
       address: "पत्ता",
       addressText: "123 सेफ्टी लेन, इंडस्ट्रियल एरिया, नवी दिल्ली, भारत - 1100XX",
       email: "ईमेल",
@@ -258,7 +261,7 @@ export const translations = {
         success: "संदेश यशस्वीरित्या पाठवला गेला! आम्ही लवकरच आपल्याशी संपर्क साधू.",
         error: "कृपया सर्व फील्ड भरा.",
         placeholderName: "सुरेश पाटील",
-        placeholderPhone: "+91 98765 43210",
+        placeholderPhone: "+९१ ९८७६५ ४३२१०",
         placeholderMessage: "आम्ही तुम्हाला कशी मदत करू शकतो?"
       }
     },
@@ -337,6 +340,7 @@ export const translations = {
     contact: {
       title: "தொடர்பில் இருங்கள்",
       subtitle: "கேள்விகள் உள்ளனவா? உங்கள் வீட்டை பாதுகாப்பானதாக மாற்ற நாங்கள் இங்கே இருக்கிறோம்.",
+      phoneNumber: "+91 74992 17265",
       address: "முகவரி",
       addressText: "123 சேஃப்டி லேன், புது தில்லி, இந்தியா",
       email: "மின்னஞ்சல்",
@@ -427,6 +431,7 @@ export const translations = {
     contact: {
       title: "ಸಂಪರ್ಕದಲ್ಲಿರಿ",
       subtitle: "ಪ್ರಶ್ನೆಗಳಿವೆಯೇ? ನಾವು ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇವೆ.",
+      phoneNumber: "+91 74992 17265",
       address: "ವಿಳಾಸ",
       addressText: "123 ಸೇಫ್ಟಿ ಲೇನ್, ನವದೆಹಲಿ",
       email: "ಇಮೇಲ್",

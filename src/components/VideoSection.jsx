@@ -12,15 +12,27 @@ const VideoSection = () => {
           <h2 className="section-title">{t.video.title}</h2>
           <p className="section-subtitle">{t.video.subtitle}</p>
         </div>
-        <div className="video-wrapper fade-in-up">
-          <video 
-            controls 
-            className="promo-video"
-            preload="metadata"
-          >
-            <source src="/video/promo-video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <div className="video-grid">
+          <div className="video-wrapper fade-in-up">
+            <video 
+              controls 
+              className="promo-video"
+              preload="metadata"
+            >
+              <source src="/video/promo-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div className="video-wrapper fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <video 
+              controls 
+              className="promo-video"
+              preload="metadata"
+            >
+              <source src="/video/promo-2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
     </section>

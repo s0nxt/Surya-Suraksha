@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="footer-col contact-col">
           <h4>{t.footer.contactUs}</h4>
           <p>Email: prashantshewalkar483@gmail.com</p>
-          <p>Phone: +91 74992 17265</p>
+          <p>Phone: {t.contact.phoneNumber}</p>
           <div className="footer-socials">
              {/* Icons can be added here */}
           </div>
