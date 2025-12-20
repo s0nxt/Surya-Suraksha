@@ -58,12 +58,6 @@ const Contact = () => {
             <a href="https://wa.me/917499217265" target="_blank" rel="noopener noreferrer" className="social-btn whatsapp">
               {t.socials.whatsapp}
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-btn facebook">
-              {t.socials.facebook}
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn instagram">
-              {t.socials.instagram}
-            </a>
           </div>
         </div>
 

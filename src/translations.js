@@ -13,9 +13,7 @@ export const translations = {
       cta: "Contact Us Today"
     },
     socials: {
-      whatsapp: "WhatsApp",
-      facebook: "Facebook",
-      instagram: "Instagram"
+      whatsapp: "WhatsApp"
     },
     video: {
       title: "Watch Our Demo",
@@ -104,9 +102,7 @@ export const translations = {
       cta: "आज ही संपर्क करें"
     },
     socials: {
-      whatsapp: "वॉट्सऐप",
-      facebook: "फेसबुक",
-      instagram: "इंस्टाग्राम"
+      whatsapp: "वॉट्सऐप"
     },
     video: {
       title: "हमारा डेमो देखें",
@@ -195,9 +191,7 @@ export const translations = {
       cta: "आजच संपर्क साधा"
     },
     socials: {
-      whatsapp: "व्हॉट्सअ‍ॅप",
-      facebook: "फेसबुक",
-      instagram: "इंस्टाग्राम"
+      whatsapp: "व्हॉट्सअ‍ॅप"
     },
     video: {
       title: "आमचा डेमो पहा",
@@ -286,9 +280,7 @@ export const translations = {
       cta: "இன்றே தொடர்பு கொள்ளுங்கள்"
     },
     socials: {
-      whatsapp: "வாட்ஸ்அப்",
-      facebook: "ஃபேஸ்புக்",
-      instagram: "இன்ஸ்டாகிராம்"
+      whatsapp: "வாட்ஸ்அப்"
     },
     video: {
       title: "எங்கள் செயல்விளக்கத்தைப் பாருங்கள்",
@@ -377,9 +369,7 @@ export const translations = {
       cta: "ಇಂದೇ ಸಂಪರ್ಕಿಸಿ"
     },
     socials: {
-      whatsapp: "ವಾಟ್ಸಾಪ್",
-      facebook: "ಫೇಸ್‌ಬುಕ್",
-      instagram: "ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್"
+      whatsapp: "ವಾಟ್ಸಾಪ್"
     },
     video: {
       title: "ನಮ್ಮ ಡೆಮೊ ವೀಕ್ಷಿಸಿ",

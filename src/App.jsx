@@ -8,6 +8,7 @@ import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import VideoSection from './components/VideoSection';
+import Donate from './components/Donate';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Features />
         <Gallery />
         <WhyUs />
+        <Donate />
         <Contact />
       </main>
       <Footer />
