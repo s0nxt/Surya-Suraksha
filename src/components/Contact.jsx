@@ -46,7 +46,7 @@ const Contact = () => {
           
           <div className="info-item">
             <h4>{t.contact.email}</h4>
-            <p>prashantshewalkar483@gmail.com</p>
+            <p>balasahebmulekar1994@gmail.com</p>
           </div>
 
           <div className="info-item">
